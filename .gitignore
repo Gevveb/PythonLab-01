@@ -1,0 +1,13 @@
+# Ignorera Python-cachefiler
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorera IDE- och editor-filer
+.vscode/
+.idea/
+*.swp
+
+# Ignorera loggar och tillfälliga filer
+*.log
+*.tmp
