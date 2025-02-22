@@ -21,6 +21,7 @@ def hangman():
         
         if word == guess:
             print("Grattis! Du vann!")
+            print(f"Du gissade hela ordet '{word}'.")
             print("vill du fortsätta? (y) om ja")
             answer = input().lower()
             if answer == "y":
@@ -48,6 +49,7 @@ def hangman():
         
         if "_" not in current_display:
             print("Grattis! Du vann!")
+            print(f"Ordet var '{word}'.")
             print("vill du fortsätta? (y) om ja")
             answer = input().lower()
             if answer == "y":
